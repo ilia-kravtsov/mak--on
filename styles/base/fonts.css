@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src:
+    local('Gotham-Pro-Extra-Bold'),
+    local('Gotham-Pro-Extra-Bold'),
+    url('../../assets/fonts/GothamPro-Black.woff2') format('woff2'),
+    url('../../assets/fonts/GothamPro-Black.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:
+    local('Poppins Medium'),
+    local('Poppins-Medium'),
+    url('../../assets/fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../../assets/fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
