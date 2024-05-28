@@ -172,6 +172,17 @@ body {
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.footer__button:hover {
+  transform: scale(1.035);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.footer__button:active {
+  transform: scale(1);
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 920px) {
