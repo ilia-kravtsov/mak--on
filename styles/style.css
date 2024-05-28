@@ -50,9 +50,6 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   border-radius: 40px;
   text-align: center;
   width: 338px;
@@ -102,7 +99,7 @@ body {
 }
 .link-sub-title {
   font-family: "Manrope", sans-serif;
-  margin-top: 16px;
+  margin-top: 22px;
   color: var(--sub-title-color);
   font-size: 19px;
   font-weight: 800;
@@ -211,6 +208,11 @@ body {
 @media (max-width: 630px) {
   .main {
     margin-top: 60px;
+  }
+  .main__content-list-item {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .main__content-list {
     gap: 60px;
