@@ -101,7 +101,7 @@ body {
   color: var(--accent-color);
 }
 .link-sub-title {
-  font-family: Poppins, sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-top: 16px;
   color: var(--sub-title-color);
   font-size: 19px;
