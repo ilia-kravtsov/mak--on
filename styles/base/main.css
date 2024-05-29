@@ -74,25 +74,17 @@ label {
 }
 
 .hidden {
-  // если поставить display none то скринридер не будет зачитывать текст из заголовка
   font-size: 0;
   opacity: 0;
   visibility: hidden;
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #fff;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--accent-color);
+  width: 0px;
+  background: transparent; 
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--accent-color) #fff;
+  scrollbar-color: transparent transparent; 
 }
