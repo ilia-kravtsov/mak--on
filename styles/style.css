@@ -19,16 +19,14 @@ body {
   width: 100%;
 }
 .container {
-  max-width: 953px;
-  margin: 0 auto;
-  width: 100%;
-  padding: 78px 20px 104px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: auto;
-}
-.header {
+  max-width: 953px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 78px 20px 104px 20px;
 }
 .header__img-wrapper {
   max-width: 953px;
@@ -112,9 +110,9 @@ body {
 }
 .link-title {
   margin-top: 16px;
-  font-family: "Gotham Pro", sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 900;
-  font-size: 26px;
+  font-size: var(--main-font-size);
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -122,10 +120,10 @@ body {
   margin-top: 33px;
 }
 .link-sub-title {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--sub-font-family);
   margin-top: 8px;
   color: var(--sub-title-color);
-  font-size: 16px;
+  font-size: var(--sub-font-size);
   font-weight: 800;
   line-height: -1px;
   letter-spacing: 0%;
@@ -199,9 +197,9 @@ body {
   padding: 15px 70px;
   border-radius: 54px;
   box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background: rgb(250, 95, 16);
-  color: rgb(255, 255, 255);
-  font-family: Gotham Pro, sans-serif;
+  background: var(--accent-color);
+  color: var(--buttons-color);
+  font-family: var(--main-font-family);
   font-size: 34px;
   font-weight: 900;
   line-height: -1px;
