@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
   scroll-behavior: smooth !important;
@@ -15,12 +14,6 @@ html {
 .body {
   position: relative;
   overflow-x: hidden;
-  color: var(--neutral-color-100);
-  background-color: var(--neutral-color-10);
-
-  &--fixed {
-    overflow-y: hidden;
-  }
 }
 
 img {
@@ -61,22 +54,6 @@ button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
-
-label {
-  cursor: pointer;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 var(--container-padding);
-  max-width: calc(var(--container-width) + (var(--container-padding) * 2));
-}
-
-.hidden {
-  font-size: 0;
-  opacity: 0;
-  visibility: hidden;
 }
 
 ::-webkit-scrollbar {

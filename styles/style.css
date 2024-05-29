@@ -5,7 +5,7 @@
 
 html,
 body {
-  height: fit-content;
+  height: auto;
   background: var(--gradient-second);
 }
 body {
@@ -20,14 +20,15 @@ body {
 }
 .container {
   max-width: 953px;
+  margin: 0 auto;
   width: 100%;
   padding: 78px 20px 104px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 .header {
-  max-height: 12h;
 }
 .header__img-wrapper {
   max-width: 953px;
@@ -40,7 +41,6 @@ body {
 .main {
   margin-top: 88px;
   max-width: 800px;
-  max-height: 60vh;
   width: 100%;
 }
 .main__content-list {
@@ -469,7 +469,8 @@ body {
     margin-top: 22px;
   }
   .footer__button {
-    font-size: 18px;
+    font-size: 16px;
+    min-height: 70px;
   }
   .footer__icon {
     width: 90px;
