@@ -40,10 +40,9 @@ body {
 }
 .main {
   margin-top: 20px;
-  max-width: 50vw;
+  max-width: 560px;
   max-height: 60vh;
   width: 100%;
-  
 }
 .main__content-list {
   display: -webkit-box;
