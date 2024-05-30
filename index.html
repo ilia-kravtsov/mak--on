@@ -2,23 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="./assets/icons/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="icon"
+      href="./assets/icons/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MAK-ON</title>
   </head>
   <body class="body">
     <div class="container">
-
       <!-- Верхний блок с логотипом кампании -->
       <header class="header">
         <div class="header__img-wrapper">
-          <a href="#">
-            <img
-              class="header__img"
-              src="./assets/icons/header-logo.svg"
-              alt="the logo of the mak-on company"
-            />
+          <a class="header__link-logo-wrapper" href="#">
+            <svg
+              width="953"
+              height="201"
+              viewBox="0 0 953 201"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_10_500)">
+                <path
+                  d="M671.232 200.789C661.506 200.789 651.811 199.298 642.502 196.323L642.247 196.242C634.35 193.592 624.132 189.62 615.029 182.36C610.125 178.627 606.292 174.624 602.907 171.085C601.849 169.983 600.853 168.943 599.839 167.922L599.03 167.107L598.327 166.199C592.615 158.807 588.794 151.673 585.508 145.064L584.923 143.893L584.513 142.646C583.181 138.618 581.681 134.089 580.773 129.141C574.557 104.767 578.968 79.9675 593.237 59.2208L594.177 57.849L594.855 57.1662C594.936 57.0346 595.023 56.8968 595.11 56.759C595.452 56.214 595.826 55.6252 596.255 54.9737L596.803 54.1531L598.296 52.3491C601.32 48.6846 604.45 44.8948 608.719 41.1426C616.36 34.4338 627.959 35.2356 634.618 42.9279C641.282 50.6202 640.486 62.2902 632.85 68.999C630.803 70.7968 629.011 72.9642 626.534 75.9647L626.335 76.209C626.261 76.3218 626.192 76.4345 626.124 76.5473C625.327 77.8126 624.307 79.435 622.788 81.2078C614.991 93.072 612.801 106.609 616.466 120.434L616.69 121.285L616.833 122.156C617.188 124.28 618.003 126.898 618.924 129.692C621.357 134.521 623.691 138.675 626.678 142.684C627.598 143.623 628.476 144.538 629.328 145.434C632.172 148.403 634.624 150.965 637.281 152.969L637.735 153.32C642.321 157.016 648.668 159.434 653.721 161.138C673.708 167.464 696.066 162.365 710.764 148.127C722.942 135.812 729.134 119.832 727.771 104.247L727.746 103.896C726.875 91.1802 719.874 78.1634 708.543 68.1847C700.914 61.4633 700.136 49.7933 706.807 42.1073C713.484 34.4275 725.076 33.6445 732.712 40.3596C751.249 56.6776 762.779 78.8399 764.36 101.171C766.625 127.662 756.52 154.329 736.619 174.361L736.408 174.574C724.299 186.369 709.041 194.619 692.289 198.422C685.351 200 678.288 200.783 671.238 200.783L671.232 200.789Z"
+                  fill="#FA5F10"
+                />
+                <path
+                  d="M671.425 93.7046C661.288 93.7046 653.068 85.4297 653.068 75.2255V18.4791C653.068 8.27487 661.288 0 671.425 0C681.562 0 689.782 8.27487 689.782 18.4791V75.2255C689.782 85.4297 681.562 93.7046 671.425 93.7046Z"
+                  fill="#FA5F10"
+                />
+                <path
+                  d="M598.725 198.572H523.736L385.842 104.466L524.427 11.2754H600.181L461.223 104.729L598.731 198.572H598.725ZM526.984 187.923H564.27L442.275 104.667L565.303 21.9244H527.631L404.79 104.535L526.984 187.923Z"
+                  fill="#FA5F10"
+                />
+                <path
+                  d="M187.302 198.572H140.01V99.9123C140.01 76.2528 120.888 57.0033 97.3846 57.0033H89.9174C78.5299 57.0033 67.827 61.4633 59.7749 69.569C51.7227 77.6748 47.2922 88.449 47.2922 99.9123V198.572H0V99.9123C0 76.234 9.15975 53.9777 25.7929 37.2401C29.8563 33.1496 34.318 29.4538 39.0596 26.2591C53.5584 16.4558 70.5027 11.2754 88.0506 11.2754H99.2514C116.799 11.2754 133.744 16.4558 148.249 26.2591C172.704 42.765 187.302 70.3019 187.302 99.9123V198.572ZM150.588 187.923H176.723V99.9123C176.723 73.86 163.874 49.6304 142.356 35.104C129.599 26.4783 114.696 21.9244 99.2514 21.9244H88.0506C72.6122 21.9244 57.7089 26.4783 44.9525 35.104C40.7771 37.9166 36.8506 41.1676 33.2726 44.7695C18.6369 59.4964 10.5785 79.0779 10.5785 99.9123V187.923H36.7137V99.9123C36.7137 85.6051 42.2456 72.1561 52.2952 62.0396C62.3448 51.9231 75.7049 46.3543 89.9174 46.3543H97.3846C126.724 46.3543 150.588 70.3771 150.588 99.9123V187.923Z"
+                  fill="#FA5F10"
+                />
+                <path
+                  d="M118.231 198.572H69.6938V95.8406H118.231V198.572ZM80.2724 187.923H107.652V106.49H80.2724V187.923Z"
+                  fill="#FA5F10"
+                />
+                <path
+                  d="M953 101.792V195.127H916.286V101.792C916.286 75.1504 894.837 53.5581 868.372 53.5581H860.905C847.675 53.5581 835.69 58.9577 827.022 67.6836C818.354 76.4095 812.99 88.4741 812.99 101.792V195.127H776.276V101.792C776.276 78.7898 785.542 57.9554 800.52 42.884C804.328 39.0504 808.504 35.5864 812.99 32.5608C826.151 23.6658 842 18.4791 859.038 18.4791H870.238C887.276 18.4791 903.125 23.6658 916.286 32.5608C938.426 47.5069 953 72.9392 953 101.792Z"
+                  fill="#FA5F10"
+                />
+                <path
+                  d="M382.531 198.885H336.303V57.8113H286.889C274.015 57.8113 261.918 62.8539 252.814 72.0183C243.716 81.1764 238.701 93.36 238.701 106.32C238.701 133.068 260.319 154.83 286.889 154.83H324.138V198.891H288.731C263.841 198.891 240.437 189.132 222.839 171.417C205.242 153.702 195.547 130.143 195.547 105.086C195.547 53.3638 237.351 11.2816 288.731 11.2816L382.531 11.9393V198.891V198.885ZM346.882 188.236H371.953V22.5069L288.694 21.9243C243.181 21.9243 206.125 59.227 206.125 105.08C206.125 127.293 214.719 148.177 230.319 163.881C245.919 179.585 266.666 188.236 288.731 188.236H313.56V165.472H286.889C254.488 165.472 228.122 138.938 228.122 106.314C228.122 90.5099 234.233 75.6577 245.334 64.4826C256.436 53.3074 271.189 47.1561 286.889 47.1561H346.882V188.23V188.236Z"
+                  fill="#FA5F10"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_10_500">
+                  <rect width="953" height="200.789" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
           </a>
         </div>
       </header>
@@ -26,11 +67,14 @@
       <!-- Блок основного контента посередине с ссылками -->
       <main class="main">
         <ul class="main__content-list">
-
           <!-- Верхний левый блок -->
           <li class="main__content-list-item">
             <div class="main__content-list-item__icons-wrapper">
-              <a class="main__content-list-item__icon-link" href="https://t.me/TEXPODDERJJKA_bot" target="_blank">
+              <a
+                class="main__content-list-item__icon-link"
+                href="https://t.me/TEXPODDERJJKA_bot"
+                target="_blank"
+              >
                 <img
                   class="main__content-list-item__icon-link-img"
                   src="./assets/icons/markets.svg"
@@ -52,8 +96,13 @@
             </div>
             <span class="link-title">Хочу в магазин</span>
             <span class="link-sub-title">
-              <a href="https://brelki64.ru/" target="_blank"><span class="link-sub-title__left">Саратов</span></a> |
-              <a href="https://brelki23.ru/" target="_blank"><span class="link-sub-title__right">Краснодар</span></a>
+              <a href="https://brelki64.ru/" target="_blank"
+                ><span class="link-sub-title__left">Саратов</span></a
+              >
+              |
+              <a href="https://brelki23.ru/" target="_blank"
+                ><span class="link-sub-title__right">Краснодар</span></a
+              >
             </span>
           </li>
 
@@ -68,47 +117,63 @@
             </div>
             <span class="link-title link-title--margin">Хочу ремонт</span>
             <span class="link-sub-title">
-              <a href="https://remont-brelkov.ru/" target="_blank"><span class="link-sub-title__left">Саратов</span></a> |
-              <a href="https://brelki23.ru/" target="_blank"><span class="link-sub-title__right">Краснодар</span></a>
+              <a href="https://remont-brelkov.ru/" target="_blank"
+                ><span class="link-sub-title__left">Саратов</span></a
+              >
+              |
+              <a href="https://brelki23.ru/" target="_blank"
+                ><span class="link-sub-title__right">Краснодар</span></a
+              >
             </span>
           </li>
 
           <!-- Нижний правый блок -->
           <li class="main__content-list-item --main__content-list-item-gap">
-            <a class="main__content-list-item__icon-box-link" href="https://wa.me/79272777655" target="_blank">
+            <a
+              class="main__content-list-item__icon-box-link"
+              href="https://wa.me/79272777655"
+              target="_blank"
+            >
               <img
                 class="main__content-list-item__icon-box-link-img"
                 src="./assets/icons/box.svg"
                 alt="box-icon"
               />
             </a>
-            <span class="link-title">Хочу оптом</span>
+            <span class="link-title --box-icon-margin-top">Хочу оптом</span>
           </li>
         </ul>
       </main>
 
       <!-- Нижний блок с рабочим и 2-мя кнопками -->
       <footer class="footer">
+        <!-- Иконка рабочего -->
         <img
           class="footer__icon"
           src="./assets/icons/worker.svg"
           alt="a worker man icon"
         />
         <div class="footer__button-container">
-
           <!-- Верхняя кнопка -->
-          <a class="footer__button" href="https://t.me/brelki64_ru" target="_blank">
+          <a
+            class="footer__button"
+            href="https://t.me/brelki64_ru"
+            target="_blank"
+          >
             <div>Помощь</div>
             <div>тех специалиста</div>
           </a>
-          
+
           <!-- Нижняя кнопка -->
-          <a class="footer__button" href="https://remont-brelkov.ru/instruction/" target="_blank">
+          <a
+            class="footer__button"
+            href="https://remont-brelkov.ru/instruction/"
+            target="_blank"
+          >
             Инструкции
           </a>
         </div>
       </footer>
-
     </div>
   </body>
 </html>

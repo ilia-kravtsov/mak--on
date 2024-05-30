@@ -1,0 +1,18 @@
+/* Для WebKit-браузеров (например, Safari и Chrome) */
+::-webkit-scrollbar {
+  width: 10px; /* Ширина скролла */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Цвет фона трека скролла */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.8); /* Цвет ползунка скролла */
+}
+
+/* Для Firefox */
+* {
+  scrollbar-width: thin; /* Толщина скролла */
+  scrollbar-color: rgba(0, 0, 0, 0.8) #fff; /* Цвет ползунка и трека скролла */
+}
