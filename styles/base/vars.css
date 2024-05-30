@@ -28,7 +28,7 @@
     Семейство шрифта
     для дополнительного заголовка Саратов | Краснодар
   */
-  --sub-font-family: "Manrope", sans-serif;
+  --sub-font-family: "Manrope", "Roboto", sans-serif;
 
   /*
     Размер шрифта заголовков ссылок
