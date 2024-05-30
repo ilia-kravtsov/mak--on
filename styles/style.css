@@ -191,6 +191,7 @@ html,
   gap: 12px;
 }
 .footer__button {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,6 +221,30 @@ html,
   text-align: center;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.footer__button span {
+  position: absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+  }
 }
 
 .footer__button:hover {
