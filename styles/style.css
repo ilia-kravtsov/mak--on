@@ -297,8 +297,8 @@ html,
     height: 228px;
   }
   .main__content-list-item__icon-link svg {
-    width: 117px;
-    height: 117px;
+    width: 100px;
+    height: 100px;
   }
   .main__content-list-item__icon-shop-link svg,
   .main__content-list-item__icon-gear-link svg {
