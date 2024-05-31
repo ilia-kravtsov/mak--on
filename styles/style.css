@@ -490,7 +490,7 @@ html,
     margin: 0;
   }
 }
-@media (max-width: 670px) and (max-height: 1170px) {
+@media (max-width: 800px) and (min-height: 1170px) {
   .main__content-list {
     gap: 33px;
   }
